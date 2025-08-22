@@ -10,8 +10,8 @@ fs.access(filePath, fs.constants.F_OK, (err) => {
 
   const readable = fs.createReadStream(filePath, "utf8");
 
-  readable.on("data", (chunk) => {
-    console.log("Chunk received:", chunk);
+  readable.on("data", (words) => {
+    console.log("received:", words);
   });
 
   readable.on("end", () => {

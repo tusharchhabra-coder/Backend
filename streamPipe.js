@@ -6,7 +6,7 @@ const writable = fs.createWriteStream("output.txt");
 readable.pipe(writable);
 
 readable.on("end", () => {
-  console.log("File copied successfully using pipe.");
+  console.log("File copied successfully using pipe!");
 });
 
 readable.on("error", (err) => {

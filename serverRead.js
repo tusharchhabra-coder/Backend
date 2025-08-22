@@ -13,6 +13,7 @@ const server = http.createServer((req, res) => {
   });
 });
 
+// server will work on port 3000
 server.listen(3000, () => {
   console.log("Server running at http://localhost:3000/");
 });
