@@ -1,6 +1,3 @@
-// myModule.js
-
-// Nested object
 exports.user = {
   name: "Tushar",
   age: 20,
@@ -10,7 +7,6 @@ exports.user = {
   },
 };
 
-// Object containing functions
 exports.calculator = {
   add(a, b) {
     return a + b;
@@ -20,7 +16,6 @@ exports.calculator = {
   },
 };
 
-// Direct function export
 exports.sayHello = function (name) {
   return `Hello, ${name}!`;
 };
