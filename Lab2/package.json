@@ -1,0 +1,23 @@
+{
+<<<<<<< HEAD
+  "name": "lab2",
+=======
+  "name": "backend-lab",
+>>>>>>> a81b5ba1bffa3e8cf8ebb5f609c71c75f452febb
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+<<<<<<< HEAD
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+=======
+  "description": ""
+>>>>>>> a81b5ba1bffa3e8cf8ebb5f609c71c75f452febb
+}
